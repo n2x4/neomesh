@@ -131,12 +131,12 @@ export default function Home() {
                 <div className="channel-hash">
                   <a
                     className="discord-link"
-                    href="https://discord.gg/MNY9bxvgbC"
+                    href="https://discord.gg/GCas53cn"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <DiscordIcon />
-                    <span>discord.gg/MNY9bxvgbC</span>
+                    <span>https://discord.gg/GCas53cn</span>
                   </a>
                 </div>
               </div>
