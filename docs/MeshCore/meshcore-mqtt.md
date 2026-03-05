@@ -5,11 +5,7 @@ sidebar_label: Meshcore MQTT
 ---
 # MeshCore MQTT Server
 
-NEO Mesh runs its own MQTT server to power our **[Live Packet Map](https://live.neome.sh/)** and local packet visibility tools.
-
-To upload to the NEO Mesh MQTT server, you can use the same LetsMesh onboarding flow and choose to add another/custom broker when prompted in the install script:
-
-- LetsMesh Add Observer: https://analyzer.letsmesh.net/observer/onboard
+Coming Soon - Help us plan on Discord.
 
 Or use the direct GitHub tools below.
 
@@ -17,16 +13,3 @@ Or use the direct GitHub tools below.
 - [MeshCore Packet Capture (Companion):](https://github.com/agessaman/meshcore-packet-capture)
 - [MeshCore HA Add-on (Companion via Home Assistant):](https://meshcore-dev.github.io/meshcore-ha/docs/ha/mqtt)
 
-Use these broker settings:
-
-- **Broker:** `mqttmc01.neome.sh`  
-- **Port:** `443`
-- **TLS:** `true`
-- **Verify TLS Certificate:** `true`
-- **Transport:** WebSockets  
-- **Authentication:** Auth token enabled  - [Meshcore-decoder](https://github.com/michaelhart/meshcore-decoder)
-- **Token audience:** `mqttmc01.neome.sh`
-
-You can confirm whether your node is showing up on our MQTT infrastructure here:
-
-- **MQTT Dashboard:** https://mcmqttdashboard.neome.sh/
