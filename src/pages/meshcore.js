@@ -61,9 +61,9 @@ export default function Home() {
         <section id="map-section" className="map-section">
           <div className="container">
             <h2><a href="https://live.neome.sh/" target="_blank" rel="noopener noreferrer">Live Packet Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://live.neome.sh/?lat=42.34228&lon=-71.58688&zoom=10&layer=dark&history=off&heat=on&labels=off&nodes=on&legend=off&menu=on&units=mi&history_filter=0" title="meshcore-live-packet-map" width="100%" height="600"></iframe>
-            <h2><a href="https://analyzer.letsmesh.net/map?lat=42.36037&long=-71.18462&zoom=9" target="_blank" rel="noopener noreferrer">MeshCore Analyzer Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://analyzer.letsmesh.net/map?lat=42.36037&long=-71.18462&zoom=9" title="meshcore-letsmesh-map" width="100%" height="600"></iframe>
+            <iframe id="meshcore-map-iframe" src="https://live.neome.sh/?lat=41.4993&lon=-81.6944&zoom=9&layer=dark&history=off&heat=on&labels=off&nodes=on&legend=off&menu=on&units=mi&history_filter=0" title="meshcore-live-packet-map" width="100%" height="600"></iframe>
+            <h2><a href="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" target="_blank" rel="noopener noreferrer">MeshCore Analyzer Map</a></h2>
+            <iframe id="meshcore-map-iframe" src="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" title="meshcore-letsmesh-map" width="100%" height="600"></iframe>
             <h2><a href="https://bos.meshmapper.net/" target="_blank" rel="noopener noreferrer">MeshMapper Coverage Map</a></h2>
             <iframe id="meshcore-map-iframe" src="https://bos.meshmapper.net/" title="meshmapper-coverage-map" width="100%" height="600"></iframe>
 
