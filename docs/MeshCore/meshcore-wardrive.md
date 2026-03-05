@@ -12,7 +12,7 @@ We now use **MeshMapper** for wardriving and coverage mapping.
 
 Use the NEO MeshMapper map here:
 
-- [https://bos.meshmapper.net/](https://bos.meshmapper.net/)
+- Map Coming Soon
 
 ## MeshMapper Wiki
 
