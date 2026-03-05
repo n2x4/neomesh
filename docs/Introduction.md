@@ -26,13 +26,13 @@ NEO Mesh provides an alternative through **community-owned mesh networks** power
 
 ## What We Build
 
-NEO Mesh supports two mesh networks across Massachusetts: **Meshtastic** and **Meshcore**. Both are useful, but each has distinct strengths.
+NEO Mesh supports two mesh networks across North East Ohio: **Meshtastic** and **Meshcore**. Both are useful, but each has distinct strengths.
 
 ### Meshtastic
 
 Meshtastic is a popular open-source LoRa mesh system designed for off-grid GPS sharing, telemetry, and simple messaging. It's beginner-friendly and widely used.
 
-However, through real-world use across Massachusetts, it became clear that Meshtastic communication is often **one-way**:
+However, through real-world use across North East Ohio, it became clear that Meshtastic communication is often **one-way**:
 
 > You can hear other people’s telemetry and occasionally chat messages, but it is very difficult to actually be *part of the conversation*.
 
@@ -51,7 +51,7 @@ Because of these strengths, **most of the active statewide network runs Meshcore
 
 For that reason:
 
-> **We recommend that new users join the network using Meshcore**, especially if they want dependable communication across Massachusetts.
+> **We recommend that new users join the network using Meshcore**, especially if they want dependable communication across North East Ohio.
 
 At the same time:
 
@@ -81,7 +81,7 @@ No prior experience is required.
 
 1. **Join our Discord** — this is where support, coordination, and updates happen.  
 2. Visit the **Node Builds** section to build your **Meshcore** node (all build guides on this site are Meshcore-based).  
-3. Power up your node and help strengthen coverage across Massachusetts.  
+3. Power up your node and help strengthen coverage across North East Ohio.  
 4. (Optional) Use Meshtastic as well — it is welcome, even if not our primary network focus.
 
 ---
@@ -103,4 +103,5 @@ We believe in a future where:
 - Some nodes operate fully off-grid; others use mains or uplinks.  
 - All tools, software, and documentation are open-source or community-created.  
 - Respectful, collaborative participation keeps the mesh strong. 💪
+
 
