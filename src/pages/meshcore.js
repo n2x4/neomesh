@@ -60,8 +60,6 @@ export default function Home() {
 
         <section id="map-section" className="map-section">
           <div className="container">
-            <h2><a href="https://live.neome.sh/" target="_blank" rel="noopener noreferrer">Live Packet Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://live.neome.sh/?lat=41.4993&lon=-81.6944&zoom=9&layer=dark&history=off&heat=on&labels=off&nodes=on&legend=off&menu=on&units=mi&history_filter=0" title="meshcore-live-packet-map" width="100%" height="600"></iframe>
             <h2><a href="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" target="_blank" rel="noopener noreferrer">MeshCore Analyzer Map</a></h2>
             <iframe id="meshcore-map-iframe" src="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" title="meshcore-letsmesh-map" width="100%" height="600"></iframe>
             <h2><a href="https://cle.meshmapper.net/" target="_blank" rel="noopener noreferrer">MeshMapper Coverage Map</a></h2>
@@ -133,12 +131,12 @@ export default function Home() {
                 <div className="channel-hash">
                   <a
                     className="discord-link"
-                    href="https://discord.gg/MNY9bxvgbC"
+                    href="https://discord.gg/GCas53cn"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <DiscordIcon />
-                    <span>discord.gg/MNY9bxvgbC</span>
+                    <span>https://discord.gg/GCas53cn</span>
                   </a>
                 </div>
               </div>
