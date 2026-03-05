@@ -28,10 +28,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://n2x4.github.io',
+  url: 'https://neome.sh',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/neomesh/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
