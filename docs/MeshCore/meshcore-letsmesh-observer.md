@@ -20,7 +20,7 @@ An observer is an MQTT-connected MeshCore node that reports packets it hears to 
 
 You can view active observers for NEO here:
 
-- https://analyzer.letsmesh.net/status/observers?region=BOS
+- https://analyzer.letsmesh.net/status/observers?region=NEO
 
 ## Set Up an Observer
 
@@ -35,7 +35,7 @@ If you are already uploading to LetsMesh, you might as well also upload to the N
 When your setup asks about additional/custom brokers, choose **yes** and add NEO MQTT.
 
 - NEO MQTT setup doc: https://neome.sh/docs/MeshCore/meshcore-mqtt
-You can view the local [Live Map](https://live.neome.sh/) once your uploads are flowing.
+oming Soon - You can view the local once your uploads are flowing.
 
 ## MeshMapper + Wardriving
 
