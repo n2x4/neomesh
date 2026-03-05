@@ -136,7 +136,7 @@ When flashing finishes, **power-cycle or restart** the radio. It should boot run
 
 If anything behaves unexpectedly (not detected, won’t flash, won’t boot, can’t connect), visit the community Discord and ask for help in the MeshCore `#troubleshooting` channel:
 
-[MeshCore Discord](https://discord.gg/MUVASVEEES)
+[MeshCore Discord](https://discord.gg/hDCxm47JSF)
 
 For full firmware documentation and release notes, see: [MeshCore GitHub Repository](https://github.com/meshcore-dev/meshcore)
 

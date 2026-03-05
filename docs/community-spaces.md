@@ -1,6 +1,6 @@
 # Related Communities
 
-The [NEO Mesh Discord](https://discord.gg/MUVASVEEES) is our primary space for coordination and discussion.
+The [NEO Mesh Discord](https://discord.gg/hDCxm47JSF) is our primary space for coordination and discussion.
 
 ## Regions
 

@@ -38,7 +38,7 @@ export default function Home() {
 
             <Link
               className="discord-button button button--secondary button--lg"
-              to="https://discord.gg/MUVASVEEES">
+              to="https://discord.gg/hDCxm47JSF">
               <b>Join us on Discord!</b>
             </Link>
           </div>

@@ -91,7 +91,7 @@ If you're interested in hosting a node, please reach out to the person who intro
 - Whether you're interested in **MeshCore**, **Meshtastic**, or you're **not sure yet**
 - Any details about roof access, building height, or obstructions (optional)
 
-If you found this page independently or prefer to contact us directly, you can also join our public community Discord: **https://discord.gg/MUVASVEEES**
+If you found this page independently or prefer to contact us directly, you can also join our public community Discord: **https://discord.gg/hDCxm47JSF**
 
 A volunteer will follow up to help determine the best option for your location.
 
