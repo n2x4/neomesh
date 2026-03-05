@@ -28,10 +28,9 @@ set prv.key <PRIVATE_KEY_HERE>
 * The **MeshCore web console**
 
   * [https://flasher.meshcore.co.uk/](https://flasher.meshcore.co.uk/)
-* A new keypair with a **non-colliding prefix**, generated either:
+* A new keypair with a **non-colliding prefix**, generated via:
 
-  * **In our Discord** using the bot command (it can generate a fresh keypair for you), or
-  * Via the web keygen: [https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/)
+  * The web keygen: [https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/)
 
 
 ## Step 1: Check what prefixes are already in use nearby
@@ -39,11 +38,11 @@ set prv.key <PRIVATE_KEY_HERE>
 You can check prefixes a couple different ways:
 
 ### Option A: MeshCore Analyzer
-Browse the repeater list for the region `NEO - Northeast Ohio, US` and look at the prefixes already in use:  
+Browse the repeater list for the region `CLE` and look at the prefixes already in use:  
 https://analyzer.letsmesh.net/nodes/repeaters
 
 ### Option B: Discord bot
-In the Discord server, run the command `/open` in `#meshcore-bot` channel, and check the prefixes shown there.
+In the Discord server, run the command `/prefix-list` in `#meshcore-general` channel, and check the prefixes shown there.
 
 > Goal: pick a prefix that isn’t already common around your local mesh.
 
@@ -51,19 +50,9 @@ In the Discord server, run the command `/open` in `#meshcore-bot` channel, and c
 
 ## Step 2: Generate a new keypair with your chosen prefix
 
-You can generate a keypair either with our Discord bot **MeshBuddy** or via the web keygen.
+You can generate a keypair via the web keygen.
 
-### Option A: Discord (MeshBuddy)
-
-In Discord, go to the `#meshcore-bot` channel and run:
-
-* `/keygen XX`
-
-Where `XX` is the first **two hex characters** of the prefix you want.
-
-Then copy the **private key** it returns.
-
-### Option B: Web keygen
+###  Web keygen
 
 Go to:
 [https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/)
