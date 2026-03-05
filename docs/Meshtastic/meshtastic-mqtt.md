@@ -12,7 +12,7 @@ Our Meshtastic MQTT broker is:
 
 - **Hostname:** `mqtt.neomesh.org`
 - **Protocol:** MQTT (unencrypted on port 1883)
-- **Authentication:** Username/password required
+- **Authentication:** neomesh:meshneo
 - **Bridged to maps:**  
   - [Liam Cottle’s Meshtastic Map](https://meshtastic.liamcottle.net/)  
   - [MeshMap.net](https://meshmap.net/)
@@ -30,12 +30,10 @@ All *radio-level* security (encryption, channels, etc.) is still handled by Mesh
 The broker at `mqtt.neomesh.org` is configured to:
 
 - Accept connections from Meshtastic nodes with valid credentials.
-- Uplink packets under the **`msh/US/MA`** root topic to:
+- Uplink packets under the **`msh/US/OH`** root topic to:
   - `mqtt.meshtastic.liamcottle.net` (for Liam Cottle’s map)
   - `mqtt.meshmap.net` / `mqtt.meshtastic.org`-style backends (for MeshMap.net and related services)
-- **Not** provide downlink commands from the internet back into the mesh (uplink-only from our broker’s perspective).
-
-This keeps the mesh focused on **local RF traffic**, while still allowing **public visualization** of node positions and telemetry.
+- Provide downlink & uplink commands from the internet back into the mesh .
 
 ---
 
@@ -54,17 +52,16 @@ Under **MQTT**:
   Keeps your MQTT messages encrypted at the Meshtastic protocol level.  
   *(This is independent of TLS on the broker port.)*
 
-- **MQTT > Map Report:** `OFF`  
-  We handle map uplinks at the broker level. You do **not** need to send map reports directly from the node.
+- **MQTT > Map Report:** `ON`  
 
-- **MQTT > Root Topic:** `msh/US/MA`  
-  This ensures your node publishes into the **Massachusetts** topic tree that our broker expects.
+- **MQTT > Root Topic:** `msh/US/OH`  
+  This ensures your node publishes into the **OH** topic tree that our broker expects.
 
-- **MQTT > Address:** `mqttmt01.neome.sh`  
+- **MQTT > Address:** `mqtt.neomesh.org`  
   This is the hostname of the NEO Mesh Meshtastic MQTT broker.
 
-- **MQTT > Username:** `meshdev`  
-- **MQTT > Password:** `large4cats`  
+- **MQTT > Username:** `neomesh`  
+- **MQTT > Password:** `meshneo`  
 
   These are the required credentials for this broker.  
   If your node doesn’t support username/password, it **will not** be able to connect.
@@ -90,9 +87,8 @@ Under **Channels** → **Primary Channel**:
 - **MQTT Uplink:** `ON`  
   This allows position and telemetry from this channel to be sent **up** to the MQTT broker (and then to the maps).
 
-- **MQTT Downlink:** `OFF`  
-  We currently do not use downlink from MQTT → RF.  
-  Keeping this off reduces unnecessary traffic and potential noise on the mesh.
+- **MQTT Downlink:** `ON or OFF`  
+  We currently allow users to chose either option. With MQTT Downlink ON you will connect to others on the mesh via the mqtt broker. With MQTT Downlink off you will not download any data from the mqtt broker. 
 
 ---
 
@@ -121,12 +117,12 @@ With this turned on, your node will contribute to the shared view of the mesh on
 
 With the settings above:
 
-- Your node connects to `mqttmt01.neome.sh` using **MQTT + credentials**.
+- Your node connects to `mqtt.neomesh.org` using **MQTT + credentials**.
 - The broker forwards (uplinks) your Meshtastic packets to:
   - [https://meshtastic.liamcottle.net/](https://meshtastic.liamcottle.net/)
-  - [https://meshmap.net/](https://meshmap.net/)
-- Your device’s position and telemetry appear on those maps under the **Massachusetts** region/topic.
-- RF traffic stays local on LoRa, but is mirrored to the internet for visualization and analysis.
+  - [https://meshview.neomesh.org/map](https://meshview.neomesh.org/map)
+- Your device’s position and telemetry appear on those maps under the **OH** region/topic.
+- RF traffic stays local on LoRa and is mirrored to the internet for visualization and analysis.
 
 You don’t need to configure any external MQTT addresses on your node—just the **NEO Mesh MQTT broker** details listed here.
 
@@ -140,7 +136,7 @@ If your node is not appearing on the map:
    - Check that:
      - MQTT is **Enabled**
      - Address is **`mqtt.neomesh.org`**
-     - Root Topic is **`msh/US/MA`**
+     - Root Topic is **`msh/US/OH`**
      - Username/password are set correctly.
 
 2. **Check Approximate Location**
