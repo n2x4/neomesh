@@ -7,7 +7,7 @@ This page explains how to add or edit docs for the NEO Mesh site, how to open a 
 ## Where Docs Live
 
 - All docs are in `docs/`.
-- Subfolders become sections in the sidebar (e.g., `MeshCore`, `Meshtastic`, `Node-Builds`).
+- Subfolders become sections in the sidebar (e.g., `MeshCore`, `Meshtastic`).
 - File names become URLs, so use short, clear, kebab-case names.
 
 Example: `docs/MeshCore/meshcore-mqtt.md` shows up as `/docs/MeshCore/meshcore-mqtt`.
@@ -23,7 +23,7 @@ Order tips:
 
 We use the main NEO Mesh repo for all changes: `https://github.com/n2x4/neomesh`.
 
-Create your own fork, make changes there, and open a pull request from your fork back to `bostonmesh/bostonmesh`.
+Create your own fork, make changes there, and open a pull request from your fork back to `n2x4/neomesh`.
 
 Keep PRs focused on a single doc change or topic, and include a clear summary of what you updated.
 

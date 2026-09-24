@@ -8,7 +8,7 @@ sidebar_label: MeshCore Wardrive
 
 We now use **MeshMapper** for wardriving and coverage mapping.
 
-## Coverage Map (Northeast Ohio)
+## Coverage Map (Northeast and North Central Ohio)
 
 Use the NEO MeshMapper map here:
 

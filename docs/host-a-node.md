@@ -1,12 +1,12 @@
 ---
 title: Hosting a NEO Mesh Node
 sidebar_position: 7
-description: Learn how to host a MeshCore or Meshtastic node and help expand resilient, community-powered communication across Massachusetts.
+description: Learn how to host a MeshCore or Meshtastic node and help expand resilient, community-powered communication across Northeast and North Central Ohio.
 ---
 
 # Hosting a NEO Mesh Node
 
-The **NEO Mesh** is a volunteer-led community building a resilient, off-grid communication network across **Northeast Ohio and the surrounding region**. Our network spans cities, towns, schools, homes, and rural communities throughout the region.
+The **NEO Mesh** is a volunteer-led community building a resilient, off-grid communication network across **Northeast and North Central Ohio**. Our network spans cities, towns, schools, homes, and rural communities throughout the region.
 
 Our mission is simple: **create a decentralized communication system that continues operating even when traditional infrastructure fails.** Hosting a node is one of the most impactful ways you can help your community.
 
@@ -34,7 +34,7 @@ Every new node strengthens the network’s reliability for the entire region.
 NEO Mesh supports two complementary technologies:
 
 ### **MeshCore**
-- Forms the *long-range statewide backbone*
+- Forms the *long-range regional backbone*
 - Best for buildings with height or clear lines of sight
 - Perfect for municipalities, emergency ops, public buildings, and commercial sites
 
@@ -113,7 +113,7 @@ They are passive, non-invasive, and have no access to internal building systems.
 
 ### **How much power does it use?**
 Around **2–5 watts**, similar to an LED night-light.  
-At Massachusetts electricity rates, that’s roughly **$2–$4 per year**.
+At Ohio electricity rates, that’s roughly **$3–$8 per year**.
 
 ---
 

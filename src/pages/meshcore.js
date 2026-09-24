@@ -33,11 +33,13 @@ export default function Home() {
             MeshCore
           </Heading>
           <div className={styles.buttons}>
-            <Link
+            <a
               className="button button--secondary button--lg"
-              to="#map-section">
+              href="https://corescope.neomesh.org"
+              target="_blank"
+              rel="noopener noreferrer">
               View Map
-            </Link>
+            </a>
             <Link
               className="button button--secondary button--lg"
               to="#contact">
@@ -58,13 +60,26 @@ export default function Home() {
         </section>
 
 
-        <section id="map-section" className="map-section">
+        <section className="map-section">
           <div className="container">
-            <h2><a href="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" target="_blank" rel="noopener noreferrer">MeshCore Analyzer Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://analyzer.letsmesh.net/map?lat=41.4993&long=-81.6944&zoom=9" title="meshcore-letsmesh-map" width="100%" height="600"></iframe>
-            <h2><a href="https://cle.meshmapper.net/" target="_blank" rel="noopener noreferrer">MeshMapper Coverage Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://cle.meshmapper.net/" title="meshmapper-coverage-map" width="100%" height="600"></iframe>
-
+            <h2>Network Maps</h2>
+            <p>See live MeshCore nodes on the network, or check wardrive coverage across the region.</p>
+            <div className={styles.buttons}>
+              <a
+                className="button button--primary button--lg"
+                href="https://corescope.neomesh.org"
+                target="_blank"
+                rel="noopener noreferrer">
+                MeshCore Live Map →
+              </a>
+              <a
+                className="button button--primary button--lg"
+                href="https://cle.meshmapper.net"
+                target="_blank"
+                rel="noopener noreferrer">
+                MeshMapper Coverage Map →
+              </a>
+            </div>
           </div>
         </section>
 
@@ -102,11 +117,11 @@ export default function Home() {
                     </tr>
                     <tr>
                       <td><strong>Advert (Zero Hop):</strong></td>
-                      <td>12 hours</td>
+                      <td>240 minutes</td>
                     </tr>
                     <tr>
                       <td><strong>Advert (Flood):</strong></td>
-                      <td>48 hours</td>
+                      <td>47 hours</td>
                     </tr>
                   </tbody>
                 </table>
@@ -114,29 +129,17 @@ export default function Home() {
               </div>
               <div class="contact-card">
                 <h3>MeshCore Channel</h3>
-                <p><strong>MeshCore Channel:</strong></p>
-                <div class="channel-list">
-                  <code class="channel-pill">Public</code>
-                  <code class="channel-pill">#chat</code>
-                  <code class="channel-pill">#coffee</code>
-                  <code class="channel-pill">#emergency</code>
-                  <code class="channel-pill">#ice-alert</code>
-                  <code class="channel-pill">#jokes</code>
-                  <code class="channel-pill">#politics</code>
-                  <code class="channel-pill">#test</code>
-                  <code class="channel-pill">#weather</code>
-                </div>
                 <p class="channel-note">Once you’re online, say hello in Public so we know you’re there! Use #test for trying out nodes and testing paths. Ask in Discord or Public mesh chat for other channels in use.</p>
                 <p><strong>Discord Server:</strong></p>
                 <div className="channel-hash">
                   <a
                     className="discord-link"
-                    href="https://discord.gg/GCas53cn"
+                    href="https://discord.gg/hDCxm47JSF"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <DiscordIcon />
-                    <span>https://discord.gg/GCas53cn</span>
+                    <span>https://discord.gg/hDCxm47JSF</span>
                   </a>
                 </div>
               </div>

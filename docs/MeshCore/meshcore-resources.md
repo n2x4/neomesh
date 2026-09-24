@@ -46,15 +46,15 @@ When flashing, you enter the WiFi SSID and password directly on the flasher page
 
 A real-time packet and reliability analysis tool for the MeshCore network. It helps repeater owners monitor health, spot abuse/bugs, and improve overall reliability using data collected from MQTT-connected observer nodes.
 
-- LetsMesh Analyzer: https://analyzer.letsmesh.net/packets?region=BOS
+- LetsMesh Analyzer: https://analyzer.letsmesh.net/packets?region=CLE
 
 ---
 
 ## Live Map (NEO Mesh)
 
-Our live map is the quickest way to see active nodes, recent activity, and overall mesh health in near real time. Created by a local resident [Yellowcooln](https://github.com/yellowcooln).
+Our live map is the quickest way to see active nodes, recent activity, and overall mesh health in near real time. Powered by [CoreScope](https://github.com/Kpa-clawbot/CoreScope), an open-source MeshCore analyzer by [Kpa-clawbot](https://github.com/Kpa-clawbot).
 
-- Live Map: Coming Soon!
+- Live Map: https://corescope.neomesh.org
 
 ---
 
@@ -65,7 +65,7 @@ Wardriving coverage mapping is now done with **MeshMapper**.
 For setup details and links, see:
 
 - Wardriving How-To: https://neome.sh/docs/MeshCore/meshcore-wardrive
-- MeshMapper Map: Coming Soon
+- MeshMapper Map: https://cle.meshmapper.net
 - MeshMapper Wiki: https://wiki.meshmapper.net/
 
 ## More resources

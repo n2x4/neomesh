@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NEO Mesh',
-  tagline: 'Resilient, off-grid community communications across Northeast Ohio',
+  tagline: 'Resilient, off-grid community communications across Northeast and North Central Ohio',
   favicon: 'img/favicon.ico',
   headTags: [
     {
@@ -140,12 +140,6 @@ const config = {
             position: 'right',
             className: 'header-icon discord',
             'aria-label': 'Discord server',
-          },
-          {
-            href: 'https://www.facebook.com/groups/1533160050958272',
-            position: 'right',
-            className: 'header-icon facebook',
-            'aria-label': 'Facebook Group',
           },
           {
             href: 'https://github.com/n2x4/neomesh',

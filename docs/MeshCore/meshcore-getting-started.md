@@ -35,9 +35,6 @@ This is the easiest place to begin.
 
 You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices.
 
-If you want examples of hardware that people in the community are already using successfully, see  
-[Node Builds](https://neome.sh/docs/Node-Builds).
-
 ---
 
 ## Repeater (infrastructure)
@@ -99,7 +96,7 @@ At a minimum:
 - A computer with a modern browser (Chrome or Edge recommended)  
 - About 10–20 minutes  
 
-You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices. [Heltec v4](https://heltec.org/project/wifi-lora-32-v4/) boards are our current recommendation. If you’re looking for other known-good hardware options, see [Node Builds](https://neome.sh/docs/Node-Builds), which links to several proven MeshCore builds used by the community.
+You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices. [Heltec v4](https://heltec.org/project/wifi-lora-32-v4/) boards are our current recommendation. If you’re looking for other known-good hardware options, ask in Discord.
 
 ---
 
@@ -162,9 +159,9 @@ If your node cannot see or reach anyone, double-check that you are using the USA
 
 MeshCore relies on shared spectrum and shared settings. Especially for repeater setups:
 
-- Use a flood advert interval of **47 hours**
+- Use a flood advert interval of **47 hours** (`set flood.advert.interval 47`; allowed range is 3–168 hours)
+- Use a zero-hop advert interval of **240 minutes** (`set advert.interval 240`; allowed range is 60–240 minutes, `0` disables it)
 - More power or more frequent adverts is not always better
-- By default, zero-hop advert is set to `0` (you may optionally set it to something like `240` minutes)
 
 Keeping consistent settings ensures stability and reduces unnecessary RF noise.
 

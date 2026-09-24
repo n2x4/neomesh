@@ -34,11 +34,13 @@ export default function Home() {
             Meshtastic
           </Heading>
           <div className={styles.buttons}>
-            <Link
+            <a
               className="button button--secondary button--lg"
-              to="#map-section">
+              href="https://mesh.0x8v.io"
+              target="_blank"
+              rel="noopener noreferrer">
               View Map
-            </Link>
+            </a>
             <Link
               className="button button--secondary button--lg"
               to="#contact">
@@ -58,17 +60,19 @@ export default function Home() {
           </div>
         </section>
 
-          <section id="map-section" className="map-section">
+        <section className="map-section">
           <div className="container">
-            <h2><a href="https://map.neome.sh" target="_blank" rel="noopener noreferrer">Submitted Node Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://map.neome.sh" title="description_of_embedded_content" width="100%" height="600"></iframe>
-          </div>
-        </section>
-
-        <section id="map-section" className="map-section">
-          <div className="container">
-            <h2><a href="https://meshtastic.liamcottle.net/?lat=41.4993&lng=278.3056&zoom=9" target="_blank" rel="noopener noreferrer">MQTT Network Coverage Map</a></h2>
-            <iframe id="meshcore-map-iframe" src="https://meshtastic.liamcottle.net/?lat=41.4993&lng=278.3056&zoom=9" title="description_of_embedded_content" width="100%" height="600"></iframe>
+            <h2>Network Map</h2>
+            <p>See Meshtastic nodes on the network.</p>
+            <div className={styles.buttons}>
+              <a
+                className="button button--primary button--lg"
+                href="https://mesh.0x8v.io"
+                target="_blank"
+                rel="noopener noreferrer">
+                Meshtastic Node Map →
+              </a>
+            </div>
           </div>
         </section>
 
@@ -116,12 +120,12 @@ export default function Home() {
                 <div className="channel-hash">
                   <a
                     className="discord-link"
-                    href="https://discord.gg/MNY9bxvgbC"
+                    href="https://discord.gg/hDCxm47JSF"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <DiscordIcon />
-                    <span>discord.gg/MNY9bxvgbC</span>
+                    <span>discord.gg/hDCxm47JSF</span>
                   </a>
                 </div>
               </div>

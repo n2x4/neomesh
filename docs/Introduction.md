@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to **NEO Mesh** — a volunteer-led community building a resilient, off-grid communication network across **Northeast Ohio and the surrounding region**. Our network spans cities, towns, and rural areas across the entire region.
+Welcome to **NEO Mesh** — a volunteer-led community building a resilient, off-grid communication network across **Northeast and North Central Ohio**. Our network spans cities, towns, and rural areas across the entire region.
 
 Our mission is to create a decentralized communication system that continues to operate even when traditional infrastructure fails.
 
@@ -47,7 +47,7 @@ Meshcore was developed to address the communication limitations of Meshtastic. I
 - **Secure, encrypted communication**  
 - **Stable performance in dense or high-traffic areas**  
 
-Because of these strengths, **most of the active statewide network runs Meshcore**.
+Because of these strengths, **most of the active regional network runs Meshcore**.
 
 For that reason:
 

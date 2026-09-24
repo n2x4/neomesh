@@ -106,10 +106,6 @@ section.light-bg {
 }
 
 
-#meshcore-map-iframe {
-  height: 700px;
-}
-
 /* Repeaters Section */
 .repeater-grid {
   display: grid;
@@ -307,28 +303,6 @@ section.light-bg {
   color: var(--text-light);
   margin-top: 15px;
   font-size: 0.9rem;
-}
-
-/* MeshCore channel list */
-.channel-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-  margin: 10px 0 15px;
-}
-
-.channel-pill {
-  background: var(--surface-muted);
-  border: 1px solid var(--surface-border);
-  border-radius: 999px;
-  padding: 6px 10px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.95rem;
-  color: var(--ifm-color-primary);
-  font-weight: 600;
-  letter-spacing: 0.3px;
-  white-space: nowrap;
 }
 
 /* Center the table itself */

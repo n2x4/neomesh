@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Off-Grid Communication <br></br> for Northeast Ohio
+          Off-Grid Communication <br></br> for Northeast and North Central Ohio
         </Heading>
         {/* <p className="hero__subtitle">Meshtastic, MeshCore, and more!</p> */}
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <div className="container">
             <h2>What is the NEO Mesh?</h2>
             <div className="about-description">
-              <p>The NEO Mesh is a volunteer-led, open community project focused on building a secure and reliable off-grid communication network throughout the Northeast Ohio, using affordable, low-power radio devices. The area has two parallel networks running on MeshCore and Meshtastic.</p>
+              <p>The NEO Mesh is a volunteer-led, open community project focused on building a secure and reliable off-grid communication network throughout Northeast and North Central Ohio, using affordable, low-power radio devices. The area has two parallel networks running on MeshCore and Meshtastic.</p>
             </div>
 
             <Link
@@ -44,8 +44,6 @@ export default function Home() {
           </div>
         </section>
         <HomepageFeatures />
-
-        <a rel="me" href="https://mastodon.social/@NEOMesh"></a>
       </main>
     </Layout>
   );
