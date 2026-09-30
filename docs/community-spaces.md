@@ -4,6 +4,6 @@ The [NEO Mesh Discord](https://discord.gg/hDCxm47JSF) is our primary space for c
 
 ## Official Discords
 
-- [Official MeshCore Discord](https://discord.gg/bSuST8xvet)
+- [Official MeshCore.io Discord](https://meshcore.gg/)
 - [Official Meshtastic Discord](https://discord.gg/meshtastic)
 - [Official MeshMapper Discord](https://discord.gg/WdAeFKRne)

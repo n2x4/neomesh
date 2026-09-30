@@ -13,7 +13,7 @@ This page is intended to help you get oriented, understand your options, and fig
 
 If you are interested in hosting infrastructure for the network without getting deeply involved, you may also want to read [Host a Node](https://neome.sh/docs/host-a-node).
 
-If you are want to learn more about MeshCore in general please visit [MeshCore.co.uk](https://meshcore.co.uk/about.html).
+If you want to learn more about MeshCore in general, please visit [MeshCore.io](https://meshcore.io/).
 
 ---
 
@@ -76,7 +76,7 @@ If you’re just getting started, you can skip room servers entirely. Most peopl
 
 ## Encryption and visibility
 
-[MeshCore traffic is encrypted](https://meshcore.co.uk/about.html). However:
+MeshCore traffic is encrypted. However:
 
 - Public channels are shared keys, meaning anyone with that channel key can read those messages
 - Message routing metadata (the path a message took through the mesh) is visible to the network
@@ -119,7 +119,7 @@ If you are running a companion node in a fixed location or planning to host a re
 
 When you’re ready to set up your LoRa radio, the first step is loading **MeshCore firmware** onto the device using the official MeshCore web flasher:
 
-[MeshCore Web Flasher](https://flasher.meshcore.co.uk)
+[MeshCore Web Flasher](https://meshcore.io/flasher)
 
 Typical first-time steps:
 
@@ -133,7 +133,7 @@ When flashing finishes, **power-cycle or restart** the radio. It should boot run
 
 If anything behaves unexpectedly (not detected, won’t flash, won’t boot, can’t connect), visit the community Discord and ask for help in the MeshCore `#troubleshooting` channel:
 
-[MeshCore Discord](https://discord.gg/hDCxm47JSF)
+[NEO Mesh Discord](https://discord.gg/hDCxm47JSF)
 
 For full firmware documentation and release notes, see: [MeshCore GitHub Repository](https://github.com/meshcore-dev/meshcore)
 
@@ -223,13 +223,6 @@ After flashing and configuring your node, the next question is usually: how do I
 You can send messages in the main Public channel, but there are additional public channels such as `#test`.
 
 If you want to send test messages without adding noise to the main Public channel, add and use the `#test` channel instead.
-
-There are often bots running in `#test` that will auto-respond if you send:
-
-- `ackbot`
-- `test`
-
-If you receive a response, that confirms your node is successfully transmitting and receiving at least one hop into the mesh.
 
 ---
 

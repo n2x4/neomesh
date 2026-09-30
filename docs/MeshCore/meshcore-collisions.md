@@ -27,7 +27,7 @@ set prv.key <PRIVATE_KEY_HERE>
 * A PC connected to the repeater via **USB serial**
 * The **MeshCore web console**
 
-  * [https://flasher.meshcore.co.uk/](https://flasher.meshcore.co.uk/)
+  * [https://meshcore.io/flasher](https://meshcore.io/flasher)
 * A new keypair with a **non-colliding prefix**, generated via:
 
   * The web keygen: [https://gessaman.com/mc-keygen/](https://gessaman.com/mc-keygen/)
@@ -68,7 +68,7 @@ MeshCore expects the private key as **128 hex characters** (one continuous strin
 ## Step 3: Set the new private key over serial
 
 Go to:
-https://flasher.meshcore.co.uk/
+https://meshcore.io/flasher
 
 1. Click on `Console`
 2. Select the device in the popup window.

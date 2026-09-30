@@ -54,7 +54,7 @@ export default function Home() {
             <h2>What is MeshCore?</h2>
             <div className="about-description">
               <p>MeshCore is a multi-platform system for enabling secure text-based communications utilizing LoRa radio hardware. It can be used for Off-Grid Communication, Emergency Response & Disaster Recovery, Outdoor Activities, Tactical Security including law enforcement, private security and also IoT sensor networks.</p>
-              <p><a href="https://meshcore.co.uk/" target="_blank" rel="noopener">Learn more about MeshCore →</a></p>
+              <p><a href="https://meshcore.io/" target="_blank" rel="noopener">Learn more about MeshCore →</a></p>
             </div>
           </div>
         </section>
@@ -127,9 +127,9 @@ export default function Home() {
                 </table>
                 </div>
               </div>
-              <div class="contact-card">
+              <div className="contact-card">
                 <h3>MeshCore Channel</h3>
-                <p class="channel-note">Once you’re online, say hello in Public so we know you’re there! Use #test for trying out nodes and testing paths. Ask in Discord or Public mesh chat for other channels in use.</p>
+                <p className="channel-note">Once you’re online, say hello in Public so we know you’re there! Use #test for trying out nodes and testing paths. Ask in Discord or Public mesh chat for other channels in use.</p>
                 <p><strong>Discord Server:</strong></p>
                 <div className="channel-hash">
                   <a
