@@ -1,0 +1,57 @@
+/**
+ * Mobile-first: base styles target phones, the media query widens
+ * spacing on larger screens.
+ */
+
+.page {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.page h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.lead {
+  font-size: 1.05rem;
+}
+
+.step {
+  background: var(--surface-bg);
+  border-left: 5px solid var(--ifm-color-primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.step h2 {
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.step ol {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.step li + li {
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 3rem 1.5rem 4rem;
+  }
+
+  .page h1 {
+    font-size: 2.25rem;
+  }
+
+  .step {
+    padding: 1.5rem 2rem;
+  }
+}
