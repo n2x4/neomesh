@@ -60,6 +60,14 @@ export default function TwoByte() {
           </ol>
         </section>
 
+        <p className={styles.footerLink}>
+          <a
+            href="https://mesh.0x8v.io/#meshcore/insights?is=1&go=sizes"
+            target="_blank"
+            rel="noopener noreferrer">
+            See hash size usage across the mesh →
+          </a>
+        </p>
       </main>
     </Layout>
   );

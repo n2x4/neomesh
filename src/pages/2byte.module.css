@@ -42,6 +42,11 @@
   margin-top: 0.5rem;
 }
 
+.footerLink {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .page {
     padding: 3rem 1.5rem 4rem;
