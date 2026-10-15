@@ -39,8 +39,8 @@ export default function TwoByte() {
           <ol>
             <li>Open the MeshCore app (version 1.41.0 or newer).</li>
             <li>Tap <strong>Settings</strong> (gear icon).</li>
-            <li>Open <strong>Experimental Settings</strong>.</li>
-            <li>Set the path hash size to <strong>2 bytes</strong>.</li>
+            <li>Scroll to <strong>Network Settings</strong>.</li>
+            <li>Set the default path hash size to <strong>2 bytes</strong>.</li>
           </ol>
         </section>
 
