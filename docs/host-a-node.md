@@ -79,6 +79,8 @@ Hosting is very low effort:
 - No maintenance is required beyond keeping the device plugged in  
 - We provide guidance or can assist with the setup if needed  
 
+If you'd like to configure a MeshCore repeater yourself, see [MeshCore Repeater Setup](https://neome.sh/docs/MeshCore/repeater-setup).
+
 ---
 
 ## Next steps

@@ -47,6 +47,8 @@ Good fit if you:
 
 If you want to host a repeater without getting involved in the community, please read [Host a Node](https://neome.sh/docs/host-a-node) for help, otherwise continue reading below.
 
+When you're ready to deploy one, follow [MeshCore Repeater Setup](https://neome.sh/docs/MeshCore/repeater-setup) for the full step-by-step configuration.
+
 ---
 
 ## Room Server
@@ -151,7 +153,7 @@ Recommended values:
 - Frequency: `910.525 MHz`
 - Bandwidth: `62.5 kHz`
 - Spreading Factor: `7`
-- Coding Rate: `5`
+- Coding Rate: `8`
 
 If you change the frequency, bandwidth, or spreading factor, your node will not be able to communicate with the NEO Mesh.
 
